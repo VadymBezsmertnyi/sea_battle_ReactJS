@@ -1,0 +1,19 @@
+.battlefieldComp {
+    .fieldHorizont {
+        display: flex;
+
+        .fieldItem {
+            width: 1.5vw;
+            height: 1.5vw;
+            background: aqua;
+            border-color: steelblue;
+        }
+
+        .styleText {
+            text-align: center;
+            padding: 0;
+            padding: 0;
+            border-color: #9b9431;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.userDiv {
+    .ship {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        div {
+            button {
+                width: 1.5vw;
+                height: 1.5vw;
+                background: white;
+            }
+        }
+
+        p {
+            margin: 0.8vw 0 0.8vw 0;
+            text-align: center;
+            font-family: hohenzollernlamont;
+            letter-spacing: 0.25vw;
+            color: #fbff00;
+        }
+    }
+}

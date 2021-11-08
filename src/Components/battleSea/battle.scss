@@ -1,0 +1,118 @@
+menu {
+    display: flex;
+    justify-content: center;
+
+    li {
+        list-style-type: none;
+        font-family: hohenzollernlamont;
+        font-size: x-large;
+        letter-spacing: 0.25vw;
+        color: #fbff00;
+        padding: 1vw;
+        margin: 0 1vw 0 1vw;
+        border-radius: 50px;
+        border: 3px solid #faff008c;
+    }
+
+    li:hover{
+        list-style-type: none;
+        font-family: hohenzollernlamont;
+        font-size: x-large;
+        letter-spacing: 0.25vw;
+        color: #000000;
+        padding: 1vw;
+        margin: 0 1vw 0 1vw;
+        border-radius: 50px;
+        background: #c7ff00;
+        box-shadow: 0 0 7px #c7ff00;
+    }
+}
+
+.userDiv {
+    display: flex;
+    align-items: center;
+    margin-right: 2vw;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .infoUser {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+
+        img {
+            display: flex;
+            width: 350px;
+            margin: 20px 0.8vw 0 0.8vw;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 50px;
+            border: 3px solid #faff008c;
+        }
+
+        h2 {
+            width: 100%;
+            margin: 0.8vw 0 0 0;
+            text-align: center;
+            font-family: hohenzollernlamont;
+            letter-spacing: 0.25vw;
+            color: #fbff00;
+        }
+    }
+
+    .battlefieldUser {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 3vw 0;
+    }
+}
+
+.compDiv {
+    display: flex;
+    align-items: center;
+    margin-left: 2vw;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .infoComp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+
+        img {
+            display: flex;
+            width: 350px;
+            height: 505px;
+            margin: 20px 0.8vw 0 0.8vw;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 50px;
+            border: 3px solid #faff008c;
+        }
+
+        h2 {
+            width: 100%;
+            margin: 0.8vw 0 0 0;
+            text-align: center;
+            font-family: hohenzollernlamont;
+            letter-spacing: 0.25vw;
+            color: #fbff00;
+        }
+    }
+
+    .battlefieldComp {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 3vw 0;
+    }
+}
